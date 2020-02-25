@@ -55,7 +55,7 @@ function spotifyThis(song) {
         } else {
             console.log("Artist: " + response.tracks.items[0].artists[0].name);
             console.log("Track: " + response.tracks.items[0].name);
-            console.log("Preview URL: " + response.tracks.item[0].preview_url);
+            console.log("Preview URL: " + response.tracks.items[0].preview_url);
             console.log("Album: " + response.tracks.items[0].album.name);
         }
     }).catch(function (error) {
